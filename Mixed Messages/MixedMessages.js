@@ -1,6 +1,6 @@
 let array1 = ["Oh bluh.", "Blah blih.", "Blah bluh."]
 let array2 = ["Blah blih.", "Blah bluh.", "Oh bluh.", "Blubber.", "Glubber.", "Flubber.",]
-let array3 = ["Blah bluh.", "Oh bluh.", "Blah blih.", "Pillow.", "Willow", "Brillo"]
+let array3 = ["Pillow.", "Willow", "Brillo", "Armadillo"]
 
 let mergedObject = {
     phrase1: array1,
