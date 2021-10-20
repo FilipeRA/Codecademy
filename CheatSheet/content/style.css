@@ -1,0 +1,33 @@
+body {
+    font-family: monospace;
+    background-color:rgb(166, 236, 233);
+}
+
+header {
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    background:lightseagreen;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background: lightseagreen;
+}
+
+table {
+    border: 2px solid black;
+    width: 650px;
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid blue;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
