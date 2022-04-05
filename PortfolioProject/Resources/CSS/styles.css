@@ -1,0 +1,105 @@
+/* Universal Styles */
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Header and navigatin bar */
+
+header {
+    background-color: white;
+    width: 100%;
+    max-height: 80px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+.nectar {
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav a {
+    color: black; 
+    text-decoration: none;
+    margin: 0;
+    padding: 0 10px;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+nav li:hover {
+    opacity: 0.7;
+}
+
+
+
+/* Style all font awesome icons */
+.fa {
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+
+/* Body */
+
+body {
+    position: relative;
+    top: 80px;  
+}
+
+.collections {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    margin: auto;
+}
+
+.collection-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.collection-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collection-containers img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;    
+}
+
+.collection-containers p {
+    padding: 5px;
+    min-width: 240px;
+    /*font-weight: bold;*/
+    text-align: center;    
+}

@@ -1,0 +1,153 @@
+html, body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    display: block;
+    text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+ }
+
+/*Navigation bar*/
+.navcontainer {
+  background-color:black;
+  position: fixed;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+}
+
+.navlogo {
+  align-self: center;
+  height: 50px;
+  margin: 10px;
+}
+
+.navlogo img {
+  height: 50px;
+}
+
+.navlist {
+ align-self: center;
+ margin: 10px;
+}
+
+.navlist li {
+  list-style: none;
+  text-decoration: underline;
+  align-self: center;
+  display: inline-flex;
+  padding: 10px;
+}
+
+/*Mission Banner*/
+.missioncontainer {
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 1200px 700px;
+  height: 700px;
+  width: auto;
+  display: flex;
+  margin-top: 69px;
+  justify-content: center;
+}
+
+.missiontext {
+  background: black;
+  align-self: center;
+  width: 100%
+}
+
+.missiontext h2, h4 {
+  margin: 10px;
+}
+
+/*Tea of the Month*/
+.teaofmonthcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.teaofmonthtext {
+  align-self: center;
+  width: 1000px;
+}
+
+.imagecontainers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.imagecontainers p {
+  margin: 10px;
+}
+
+.image1, .image2, .image3, .image4, .image5 {
+  width: 300px;
+  margin: 10px;
+}
+
+.imagecontainers img{
+  height: 200px;
+  width: 300px;
+
+}
+
+/*Locations*/
+.locationscontainer {
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.locations {
+  display: inline-flex;
+  align-items: center;
+  /*margin: 15px 0;*/
+  opacity: 1;
+}
+
+.location1, .location2, .location3 {
+   background: black;
+   height: auto;
+   width: 300px;
+   margin: 0 20px;
+}
+
+/*Footer*/
+
+footer {
+  /*margin: 0 auto;*/
+}
+
+.contact {
+  height: 200px;
+  justify-content:center;
+}
+
+
+.copyright {
+  display: flex;
+  align-self: start;
+  margin-left: 20px;
+}

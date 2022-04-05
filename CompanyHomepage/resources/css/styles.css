@@ -1,0 +1,118 @@
+
+/* Universal styles */
+body {
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+      background-color: white;
+      font-size: 22px;
+      text-align: center;
+}
+
+h2, h3, h4, p {
+  margin: 0;
+  padding: 10px;
+}
+
+/*Header styles*/
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Navbar style */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10%;
+}
+
+.navbar a {
+    color: black; 
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+/* Banner style */
+.banner {
+    background-image: url("../images/skyscrapers.jpg");
+    height: 300px;
+    display: flex;
+    padding-top: 35px;    
+}
+
+.banner-content {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    
+}
+
+/* Portfolio style*/
+.portfolio {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;    
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portfolio-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;    
+}
+
+.portfolio span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;    
+}
+
+
+/*Team Style*/
+
+.team {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.team-image-container {
+    background-image: url("../images/blurred-road.jpg");
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-image {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.team-image img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
